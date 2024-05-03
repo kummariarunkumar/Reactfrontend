@@ -1,0 +1,127 @@
+
+.container{
+    margin: 45px 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 50px;
+    background: #ffffff;
+    width: 400px ;
+    float: left;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+.container2{
+    margin: 45px 0;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 400px ;
+    float: left;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+.container3{
+    margin: 45px 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 60px;
+    background: #ffffff;
+    width: 400px ;
+    float: right;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width:100%;
+    margin-top: 15px;
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.underline{
+    width: 100px;
+    height: 4px;
+    background: rgb(255, 0, 255);
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 15px;
+}
+
+.input input{
+    height: 40px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+.forgot-password{
+    padding-left: 25x;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.forgot-password span{
+    color: #3401ff;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap:10px;
+    margin: 25px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background: #9900b4;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.gray{
+    background: #00ff1a;
+    color: #000000;
+}
